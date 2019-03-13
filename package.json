@@ -12,7 +12,6 @@
     "react-redux": "^6.0.0",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
-
     "chardet": "^0.7.0",
     "electron-is-dev": "^1.0.1",
     "feedparser": "^2.2.9",
@@ -54,7 +53,6 @@
     "@types/react-redux": "^7.0.1",
     "@types/react-virtualized": "^9.18.12",
     "@types/sqlite3": "^3.1.4",
-    
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.11",
     "react-app-rewired": "^2.1.0",
@@ -62,7 +60,6 @@
     "react-scripts": "2.1.5",
     "react-virtualized": "^9.21.0",
     "typescript": "3.3.3",
-
     "concurrently": "^4.1.0",
     "devtron": "^1.4.0",
     "electron": "^4.0.6",
@@ -88,6 +85,10 @@
     "win": {
       "icon": "build/icon.png",
       "target": "nsis"
+    },
+    "linux": {
+      "icon": "build/icon.png",
+      "target": "snap"
     },
     "nsis": {
       "allowToChangeInstallationDirectory": true,
